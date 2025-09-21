@@ -21,6 +21,22 @@
         };
     };
 
+    macros {
+        password: password {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(P) &kp A &kp Y &kp C &kp O &kp M &kp AT &kp U &kp T &kp A &kp N0 &kp N0 &kp N0 &kp N0 &kp N0 &kp N0>;
+            label = "PASSWORD";
+        };
+
+        username: username {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp I &kp S &kp W &kp A &kp DOT &kp N &kp A &kp N &kp D &kp A>;
+            label = "USERNAME";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

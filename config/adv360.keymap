@@ -41,13 +41,18 @@
         compatible = "zmk,combos";
 
         copy {
-            bindings = <&hm LC(C) C>;
+            bindings = <&hm LC(INSERT) C>;
             key-positions = <49>;
         };
 
         paste {
-            bindings = <&hm LC(V) V>;
+            bindings = <&hm LS(INSERT) V>;
             key-positions = <50>;
+        };
+
+        Cut {
+            bindings = <&hm LC(X) X>;
+            key-positions = <48>;
         };
     };
 

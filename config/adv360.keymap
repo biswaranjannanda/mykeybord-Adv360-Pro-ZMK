@@ -44,6 +44,11 @@
             bindings = <&hm LC(C) C>;
             key-positions = <49>;
         };
+
+        paste {
+            bindings = <&hm LC(V) V>;
+            key-positions = <50>;
+        };
     };
 
     keymap {

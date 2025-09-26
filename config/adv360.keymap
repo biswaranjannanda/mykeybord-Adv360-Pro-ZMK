@@ -37,6 +37,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        copy {
+            bindings = <&hm LC(C) C>;
+            key-positions = <49>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

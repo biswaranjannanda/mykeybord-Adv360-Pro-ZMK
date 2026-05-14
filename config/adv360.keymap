@@ -25,14 +25,14 @@
         password: password {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Q &kp W &kp E &kp R &kp ENTER>;
+            bindings = <&kp LS(D) &kp H &kp A &kp L &kp U &kp AT_SIGN &kp KP_N1 &kp KP_NUMBER_2 &kp KP_N3>;
             label = "PASSWORD";
         };
 
         username: username {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp B &kp I &kp S &kp W &kp A &kp DOT &kp N &kp A &kp N &kp D &kp A>;
+            bindings = <&kp B &kp I &kp S &kp W &kp A &kp DOT &kp N &kp A &kp N &kp D &kp A &kp AT_SIGN &kp H &kp O &kp T &kp M &kp A &kp I &kp L &kp PERIOD &kp C &kp O &kp M>;
             label = "USERNAME";
         };
     };
